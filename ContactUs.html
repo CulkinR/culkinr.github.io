@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            body {
+                margin: 0;
+                background-color: #00FFFF;
+            }
+            .navbar ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #000000;
+                position: fixed;
+                top: 0;
+                width: 100%
+            }
+            
+            .navbar li {
+                float: left;
+            }
+            
+            .navbar li a {
+                display: block;
+                color: #FFFFFF;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: sans-serif;
+            }
+            
+            .navbar li a:hover:not(.active) {
+                background-color: #FFFFFF;
+                color: #000000;
+            }
+            
+            .text {
+                padding: 20px;
+                margin-top: 30px;
+                height: 1500px;
+                text-align: center;
+                font-family: sans-serif;
+            }
+            
+            .text h1, h2 {
+                font-family: sans-serif;
+            }
+            
+            .text p {
+                line-height: 25px;
+            }
+            
+            .text img {
+                width: 40%
+            }
+            
+             table {
+                font-family: sans-serif;
+                border-collapse: collapse;
+                width: 80%;
+            }
+            td, th {
+                border: 2px solid #000000;
+                padding: 8px;
+            }
+            
+            .text form {
+                line-height: 25px;
+            }
+            
+            .text img {
+                width: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="AnimeOneReZero.html">ReZero</a></li>
+                <li><a href="AnimeTwoMadeInAbyss.html">Made In Abyss</a></li>
+                <li><a href="AnimeThreeDrStone.html">Dr Stone</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="text">
+            <h1>Contact Us</h1>
+            
+            <h2>Anime Request Form</h2>
+            <form action="/Submissions.php">
+                <label for="title">Anime Title:</label><br>
+                <input type="text" id="title" name="title"><br>
+                <label for="source">Source Link to Anime:</label><br>
+                <input type="text" id="source" name="source"><br>
+                <input type="submit" value="Submit">
+            </form>
+            <br>
+            
+            <h2>Contact Information</h2>
+            <p>If there are any issues that require the site maintainer to be contacted directly,<br>Please forward all queries to anisynopsis@gmail.com</p>
+            <img src="Logo.png">
+        </div>
+    </body>
+</html>
